@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="region">
+        <item>한식</item>
+        <item>양식</item>
+        <item>중식</item>
+        <item>일식</item>
+        <item>디저트</item>
+        <item>페스트푸드</item>
+    </string-array>
+    <string-array name="menu">
+        <item>밥류</item>
+        <item>면류</item>
+        <item>탕류</item>
+        <item>튀김류</item>
+        <item>찜류</item>
+        <item>볶음류</item>
+        <item>도시락</item>
+    </string-array>
+    <string-array name="phone">
+        <item>02</item>
+        <item>032</item>
+        <item>031</item>
+        <item>064</item>
+        <item>063</item>
+        <item>061</item>
+        <item>054</item>
+    </string-array>
+    <string-array name="from_where">
+        <item>국내산</item>
+        <item>미국산</item>
+        <item>호주산</item>
+        <item>일본산</item>
+        <item>러시아산</item>
+        <item>중국산</item>
+    </string-array>
+    <string-array name="hour">
+        <item>00</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+    </string-array>
+    <string-array name="minute">
+        <item>00</item>
+        <item>15</item>
+        <item>30</item>
+        <item>45</item>
+    </string-array>
+</resources>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResultActivity">
+
+
+    <FrameLayout
+        android:id="@+id/frameLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/view_rounded"
+        android:paddingLeft="20dp"
+        android:paddingTop="12dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="#000000"
+                android:text="가게 정보" />
+
+            <TextView
+                android:id="@+id/title_store"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:text="가게 이름" />
+            <TextView
+                android:id="@+id/seperate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:text="카테고리" />
+
+            <TextView
+                android:id="@+id/llocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:text="위치"/>
+            <TextView
+                android:id="@+id/off"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:text="휴무일"/>
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:text="오픈시간"/>
+
+            <TextView
+                android:id="@+id/service"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:text="제공 서비스"/>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00CCCC"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#606060"
+                android:text="주문 내역 확인하기" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/listView" />
+
+
+</LinearLayout>
